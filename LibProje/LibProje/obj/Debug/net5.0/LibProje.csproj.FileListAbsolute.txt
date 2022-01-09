@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.exe
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.deps.json
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.runtimeconfig.json
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.dll
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\ref\LibProje.dll
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\bin\Debug\net5.0\LibProje.pdb
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.dll
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\ref\LibProje.dll
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.pdb
+C:\Users\Admin\Desktop\Kurs\LibProje\LibProje\LibProje\obj\Debug\net5.0\LibProje.genruntimeconfig.cache
