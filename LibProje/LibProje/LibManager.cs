@@ -30,63 +30,43 @@ namespace LibProje
         }
         public void ShowAllBooksByName(string str)
         {
-            foreach (Book item in Books)
+            var result = Books.FindAll(x => x.Name.ToUpper().Contains(str.ToUpper()));
+            foreach (var item in result)
             {
-                if (item.Name.ToUpper().Contains(str.ToUpper()))
-                {
-                    Console.WriteLine(item);
-                }
+               Console.WriteLine(item);
             }
         }
+        
         public void RemoveAllBookByName(string str)
-        {         
-            do
+        {
+            var result = Books.FindAll(x => x.Name.ToUpper().Contains(str.ToUpper()));
+            foreach (var item in result)
             {
-                str1:
-                foreach (Book item in Books)
-                {
-                    if (item.Name.ToUpper().Contains(str.ToUpper()))
-                    {
-                        Books.Remove(item);
-                        goto str1;
-                    }
-                }
-            } while (Books.Count <0);
-            return;
+                Books.Remove(item);
+            }
         }
         public void ShowAllBooksByPageInterval(int startPage, int endPage)
         {
-            foreach (Book item in Books)
+            var result = Books.FindAll(x => x.PageCount >= startPage && x.PageCount <= endPage);
+            foreach (var item in result)
             {
-                if (item.PageCount >= startPage && item.PageCount <= endPage)
-                {
-                    Console.WriteLine(item);
-                }
+                Console.WriteLine(item);
             }
         }
         public void SearchAllBooksByString(string str)
         {
-            foreach (Book item in Books)
+            var result = Books.FindAll(x => x.Name.ToUpper().Contains(str.ToUpper()) || x.AuthorName.ToUpper().Contains(str.ToUpper()) || x.PageCount.ToString() == str);
+            foreach (var item in result)
             {
-                if (item.Name.ToUpper().Contains(str.ToUpper()) || item.AuthorName.ToUpper().Contains(str.ToUpper()) || item.PageCount.ToString() == str)
-                {
-                    Console.WriteLine(item);
-                }
+                Console.WriteLine(item);
             }
         }
         public void RemoveByNo(string str)
         {
-            strt1:
-            if (Books.Count > 0)
+            var result = Books.FindAll(x => x.Code.ToUpper() == str.ToUpper());
+            foreach (var item in result)
             {
-                foreach (Book item in Books)
-                {
-                    if (item.Code.ToUpper() == str.ToUpper())
-                    {
-                        Books.Remove(item);
-                        goto strt1;
-                    }
-                }
+                Books.Remove(item);
             }
         }
 
